@@ -36,7 +36,7 @@ public class Main {
         instance1.number = 12;
         MySingletonClass instance2 = MySingletonClass.getInstance();
         System.out.println(instance2.number);
-/*
+
         SuperAwesomeCoolCar car5 = new SuperAwesomeCoolCar();
 
         System.out.println(car5);
@@ -53,7 +53,6 @@ public class Main {
         CustomNumber number1 = new CustomNumber(1);
         double numberPlus1 = number1.doOperation(myFunction);
         System.out.println(numberPlus1);
-        */
     }
 
 
