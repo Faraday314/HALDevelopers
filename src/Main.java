@@ -17,7 +17,6 @@ public class Main {
             //System.out.println(annotation.name());
         }
 
-        /*
         MyBuilderClass builder = new MyBuilderClass();
 
         System.out.println(
@@ -30,7 +29,7 @@ public class Main {
                 .addValue(6)
                 .build()
         );
-        */
+
 
         MySingletonClass instance1 = MySingletonClass.getInstance();
         System.out.println(instance1.number);
